@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  text-align: center;
+  background-color: #753cfa;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 150px;
+  color: aliceblue;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+p {
+  /* text-align: right; */
+  line-height: 1.5;
+  margin-left: 30px;
+}
+.container {
+  margin-left: 37vw;
+  padding-top: 30px;
+  width: 25vw;
+  height: 350px;
+  margin-top: 60px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#username,
+#password,
+#email,
+#cpassword {
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+#checkbox {
+  margin-left: 45px;
+}
+#signup {
+  padding: 5px 60px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  background-color: green;
+}
+
+#signup:hover {
+  background-color: blue;
+  color: antiquewhite;
+}
+.footer {
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 45vw;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    margin-left: 150px;
+    line-height: 2;
+  }
+  .footer {
+    text-align: center;
+    margin-left: 160px;
+  }
+}
